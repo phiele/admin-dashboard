@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <!-- <img src="" alt="" class="sidebar-title-icon"> -->
+                <div class="title"><span class="material-icons">dashboard</span>Dashboard</div>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons">home</span>Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons-outlined">account_circle</span>Profile</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons">chat</span>Messages</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons">history</span>History</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons-outlined">task</span>Tasks</a></li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons">people</span>Communities</a></li>
+            </ul>
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons-outlined">settings</span>Settings</a></li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons">support</span>Support</a></li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link"><span class="material-icons-outlined">shield</span>Privacy</a></li>
+            </ul>
+        </aside>
+
+        <header class="header">
+            <div class="top">
+                <div class="search">
+                    <a href="#" class="search-icon"><span class="material-icons">search</span></a><input type="search" name="search" id="search">
+                </div>
+                <div class="profile">
+                    <a href="#" class="notification"><span class="material-icons-outlined">notifications_active</span></a>
+                    <img src="./assets/eye.png" alt="avatar" class="avatar">
+                    <div class="username">Morgan Oakley</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <img src="./assets/eye.png" alt="avatar" class="avatar">
+                <div class="greeting">
+                    <span>Hi there,</span>
+                    <div class="username">Morgan Oakley <span>(@morgan)</span></div>
+                </div>
+                <div class="btns">
+                    <button id="new">New</button>
+                    <button id="upload">Upload</button>
+                    <button id="share">Share</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <div class="projects-container">
+                <div class="headline">Your Projects</div>
+                <div class="projects-content">
+                    <div class="projects">
+                        <div class="project-title">Super Cool Project</div>
+                        <div class="project-description">Amet purus gravida quis blandit turpis cursus. Enim facilisis gravida neque convallis a cras semper. Dapibus ultrices in iaculis nunc sed augue.</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-title">Less Cool Project</div>
+                        <div class="project-description">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-title">Impossible App</div>
+                        <div class="project-description">Risus commodo viverra maecenas accumsan lacus vel. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nec sagittis aliquam malesuada bibendum arcu vitae...</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-title">Easy Peasy App</div>
+                        <div class="project-description">Amet purus gravida quis blandit turpis cursus. Enim facilisis gravida neque convallis a cras semper. Dapibus ultrices in iaculis nunc sed augue.</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-title">Money Maker</div>
+                        <div class="project-description">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-title">Ad Blocker</div>
+                        <div class="project-description">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
+                        <div class="interactions">
+                            <span class="material-icons-outlined">star_outline</span>
+                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined">open_in_new</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements-container">
+                <div class="headline">Announcements</div>
+                <div class="announcements-content">
+                    <div class="announcements">
+                        <div class="announcement-title">Site Maintenance</div>
+                        <div class="announcement-text">Accusamus nihil dicta, quisquam, similique doloremque unde quidem quaerat a possimus eum deleniti libero...</div>
+                    </div>
+                    <hr>
+                    <div class="announcements">
+                        <div class="announcement-title">Community Share Day</div>
+                        <div class="announcement-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptatum ipsa cupiditate unde...</div>
+                    </div>
+                    <hr>
+                    <div class="announcements">
+                        <div class="announcement-title">Updated Privacy Policy</div>
+                        <div class="announcement-text">Vel rem, ipsa officia commodi veniam excepturi, ex, molestias perspiciatis consequuntur sint error voluptatem...</div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="trending-container">
+                <div class="headline">Trending</div>
+                <ul class="trending">
+                    <li class="trending-users">
+                        <img src="./assets/arrow.png" alt="avatar" class="avatar" source="assets/">
+                        <div class="account">
+                            <div class="user">@tegan</div>
+                            <div class="role">World Peace Builder</div>
+                        </div>
+                    </li>
+                    <li class="trending-users">
+                        <img src="./assets/rectangles.png" alt="avatar" class="avatar" source="assets/">
+                        <div class="account">
+                            <div class="user">@phiele</div>
+                            <div class="role">Super Cool Project</div>
+                        </div>
+                    </li>
+                    <li class="trending-users">
+                        <img src="./assets/circle.png" alt="avatar" class="avatar" source="assets/">
+                        <div class="account">
+                            <div class="user">@bullseye</div>
+                            <div class="role">CS Aim Bot</div>
+                        </div>
+                    </li>
+                    <li class="trending-users">
+                        <img src="./assets/fuzzy.png" alt="avatar" class="avatar" source="assets/">
+                        <div class="account">
+                            <div class="user">@fuzzy</div>
+                            <div class="role">Wave Sound Project</div>
+                        </div>
+                    </li>
+                    <li class="trending-users">
+                        <img src="./assets/green-square.png" alt="avatar" class="avatar" source="assets/">
+                        <div class="account">
+                            <div class="user">@vegan</div>
+                            <div class="role">Go Vegan App</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>         
+        </main>
+    </div>
+</body>
+</html>
